@@ -6,20 +6,58 @@ This Rom is port from the S5 Mini Duos the G800H which have a very simlar Spec a
 
 
 Spec of Devics support by this ROM (All MSM8226-Samsung Phone only)
------------------------------------------------:|:--------------------------
-	Grand 2	Duos/LTE			|	S3 neo +/Duos
------------------------------------------------:|:------:|:-----------------
-Basic   | Spec Sheet				| Basic  | Spec Sheet
--------:|:-------------------------------------:|:------:|:-----------------
-CPU     | Quad-core 1.2 GHz Cortex-A7		|CPU     | Quad-core 1.2 GHz Cortex-A7
-CHIPSET | Qualcomm Snapdragon 400		|CHIPSET | Qualcomm Snapdragon 400
-GPU     | Adreno 305				|GPU     | Adreno 305
-Memory  | 1.5GB RAM				|Memory  | 1.5GB RAM
-Shipped Android Version | 4.3 ( Currntly 4.4.2 ) |Shipped Android Version | 4.3 ( Currntly 4.4.2 
-Storage | 8GB					|Storage | 16GB
-MicroSD | Up to 64GB				|MicroSD | Up to 64GB
-Battery | 2600 mAh				|Battery | 2100 mAh
-Display | 5.2"					|Display | 4.6"
-Camera  | 8 MP, 3264 x 2448 pixels		|Camera  | 8 MP, 3264 x 2448 pixels
 
 
+Grand 2 Duos/LTE
+-----------------
+Basic   | Spec Sheet
+-------:|:-------------------------------------
+CPU     | Quad-core 1.2 GHz Cortex-A7
+CHIPSET | Qualcomm Snapdragon 400
+GPU     | Adreno 305	
+Memory  | 1.5GB RAM
+Shipped Android Version | 4.3 ( Currntly 4.4.2 )
+Storage | 8GB
+MicroSD | Up to 64GB
+Battery | 2600 mAh
+Display | 5.2"
+Camera  | 8 MP, 3264 x 2448 pixels
+
+![Galaxy Grand 2](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-grand-2.jpg "Galaxy Grand 2")
+
+S3 neo Duos/+
+------------------
+Basic   | Spec Sheet
+-------:|:-------------------------------------
+CPU     | Quad-core 1. GHz Cortex-A7
+CHIPSET | Qualcomm Snapdragon 400
+GPU     | Adreno 305	
+Memory  | 1.5GB RAM
+Shipped Android Version | 4.3 ( Currntly 4.4.2 )
+Storage | 16GB
+MicroSD | Up to 64GB
+Battery | 2100 mAh
+Display | 4.6"
+Camera  | 8 MP, 3264 x 2448 pixels
+
+![Galaxy s3 neo](http://cdn2.gsmarena.com/vv/bigpic/samsung-i9301l-galaxy-s3-neo.jpg "Galaxy s3 neo")
+
+The port from device spec
+
+S5 Mini Duos SM-G990H
+------------------
+Basic   | Spec Sheet
+-------:|:-------------------------------------
+CPU     | Quad-core 1.2 GHz Cortex-A7
+CHIPSET | Qualcomm Snapdragon 400
+GPU     | Adreno 305	
+Memory  | 1.5GB RAM
+Shipped Android Version | 4.4.4 (KitKat)( Currntly 5.1.1 )
+Storage | 16GB
+MicroSD | Up to 64GB
+Battery | 2100 mAh
+Display | 4.5"
+Camera  | 8 MP, 3264 x 2448 pixels
+
+
+![Galaxy S5 mini Duos](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s5-mini-duos.jpg "Galaxy s5 mini Duos")
