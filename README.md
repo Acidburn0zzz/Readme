@@ -7,6 +7,7 @@ This Rom is port from the S5 Mini Duos the G800H which have a very simlar Spec a
 
 Spec of Devics support by this ROM (All MSM8226-Samsung Phone only)
 
+![Galaxy Grand 2](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-grand-2.jpg "Galaxy Grand 2")
 
 Grand 2 Duos/LTE
 -----------------
@@ -23,7 +24,7 @@ Battery | 2600 mAh
 Display | 5.2"
 Camera  | 8 MP, 3264 x 2448 pixels
 
-![Galaxy Grand 2](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-grand-2.jpg "Galaxy Grand 2")
+![Galaxy s3 neo](http://cdn2.gsmarena.com/vv/bigpic/samsung-i9301l-galaxy-s3-neo.jpg "Galaxy s3 neo")
 
 S3 neo Duos/+
 ------------------
@@ -40,9 +41,9 @@ Battery | 2100 mAh
 Display | 4.6"
 Camera  | 8 MP, 3264 x 2448 pixels
 
-![Galaxy s3 neo](http://cdn2.gsmarena.com/vv/bigpic/samsung-i9301l-galaxy-s3-neo.jpg "Galaxy s3 neo")
-
 The port from device spec
+
+![Galaxy S5 mini Duos](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s5-mini-duos.jpg "Galaxy s5 mini Duos")
 
 S5 Mini Duos SM-G990H
 ------------------
@@ -59,5 +60,3 @@ Battery | 2100 mAh
 Display | 4.5"
 Camera  | 8 MP, 3264 x 2448 pixels
 
-
-![Galaxy S5 mini Duos](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s5-mini-duos.jpg "Galaxy s5 mini Duos")
