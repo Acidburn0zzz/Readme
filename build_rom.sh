@@ -268,7 +268,7 @@ MKBOOTIMG()
 		$BUILD_TOP_DIR/tools/mkbootimg/mkboot $BUILD_TOP_DIR/s5_mini_port/ms013g/boot.img $BUILD_TOP_DIR/ramdisk2
 		rm -rf $BUILD_TOP_DIR/ramdisk/ramdisk/*
 		mkdir -p $BUILD_TOP_DIR/ramdisk/ramdisk
-		cp -rf $BUILD_TOP_DIR/ramdisk2/ramdisk $BUILD_TOP_DIR/ramdisk/ramdisk
+		cp -rf $BUILD_TOP_DIR/ramdisk2/ramdisk $BUILD_TOP_DIR/ramdisk
 		rm -rf $BUILD_TOP_DIR/ramdisk2
 		echo "Done.. Please re-run the build with your device codename";
 		echo -e '\E[0m'
