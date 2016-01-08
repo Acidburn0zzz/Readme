@@ -45,7 +45,7 @@ The port from device spec
 
 ![Galaxy S5 mini Duos](http://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s5-mini-duos.jpg "Galaxy s5 mini Duos")
 
-S5 Mini Duos SM-G990H
+S5 Mini Duos SM-G800H
 ------------------
 Basic   | Spec Sheet
 -------:|:-------------------------------------
