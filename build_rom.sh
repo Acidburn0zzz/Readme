@@ -277,7 +277,7 @@ MKBOOTIMG()
 
 	echo ""
 	echo "===================================="
-	echo "  START : FUNC_EXT_MODULES_TARGET"
+	echo "  START : MK bootimg"
 	echo "===================================="
 	echo ""
 
@@ -285,7 +285,7 @@ MKBOOTIMG()
 
 	echo ""
 	echo "===================================="
-	echo "  END : FUNC_EXT_MODULES_TARGET"
+	echo "  END : MK bootimg"
 	echo "===================================="
 	echo ""
 }
