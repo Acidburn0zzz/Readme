@@ -261,13 +261,33 @@ SECFUNC_PRINT_HELP()
 
 MKBOOTIMG()
 {
+
 	if [ "$BUILD_COMMAND" == "setup" ]; then
 		echo -e '\E[33m'
 		echo "Seting UP";
+		$BUILD_TOP_DIR/tools/mkbootimg/mkboot $BUILD_TOP_DIR/s5_mini_port/ms013g/boot.img $BUILD_TOP_DIR/ramdisk2
+		rm -rf $BUILD_TOP_DIR/ramdisk/ramdisk/*
+		mkdir -p $BUILD_TOP_DIR/ramdisk/ramdisk
+		cp -rf $BUILD_TOP_DIR/ramdisk2/ramdisk $BUILD_TOP_DIR/ramdisk/ramdisk
+		rm -rf $BUILD_TOP_DIR/ramdisk2
 		echo "Done.. Please re-run the build with your device codename";
 		echo -e '\E[0m'
 		exit -1;
 	fi
+
+	echo ""
+	echo "===================================="
+	echo "  START : FUNC_EXT_MODULES_TARGET"
+	echo "===================================="
+	echo ""
+
+	$BUILD_TOP_DIR/tools/mkbootimg/mkboot $BUILD_TOP_DIR/ramdisk $BUILD_TOP_DIR/out/${MODEL}/boot.img
+
+	echo ""
+	echo "===================================="
+	echo "  END : FUNC_EXT_MODULES_TARGET"
+	echo "===================================="
+	echo ""
 }
 
 # MAIN FUNCTION
@@ -278,6 +298,7 @@ rm -rf ./build.log
 	FUNC_BUILD_KERNEL
 	FUNC_EXT_MODULES_TARGET
 
+	cp -vf $INSTALLED_DTIMAGE_TARGET $BUILD_KERNEL_RAMDISK_DIR/dt.img
 	cp -vf $KERNEL_ZIMG $BUILD_KERNEL_RAMDISK_DIR/kernel
 	MKBOOTIMG
 
